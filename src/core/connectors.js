@@ -781,9 +781,9 @@ define(function() {
 	},
 
 	{
-		label: 'Saavn',
-		matches: ['*://www.saavn.com/*'],
-		js: ['connectors/saavn.js'],
+		label: 'JioSaavn',
+		matches: ['*://www.jiosaavn.com/*'],
+		js: ['connectors/jiosaavn.js'],
 	},
 
 	{
@@ -1279,5 +1279,9 @@ define(function() {
 		label: 'Funkwhale',
 		matches: [''],
 		js: ['connectors/funkwhale.js'],
+	}, {
+		label: 'R-a-dio',
+		matches: ['*://r-a-d.io/*'],
+		js: ['connectors/r-a-d.io.js'],
 	}];
 });
